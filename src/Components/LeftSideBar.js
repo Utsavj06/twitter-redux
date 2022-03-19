@@ -38,7 +38,7 @@ const Container = styled.div`
         height:100vh;
         color:white;
         flex-direction:column;
-        position:sticky;
+        position:fixed;
 `
 
 const MiniContainer = styled.div`

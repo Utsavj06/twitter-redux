@@ -15,5 +15,7 @@ const Container = styled.div`
         justify-content:center;
         color:white;
         border-left:0.5px solid white;
-        position:sticky;
+        position:fixed;
+        margin-left:1013px;
+        height:100vh;
 `
