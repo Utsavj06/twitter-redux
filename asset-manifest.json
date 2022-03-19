@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/twitter-redux/static/css/main.9921b8ae.css",
+    "main.js": "/twitter-redux/static/js/main.27bbff19.js",
+    "index.html": "/twitter-redux/index.html",
+    "main.9921b8ae.css.map": "/twitter-redux/static/css/main.9921b8ae.css.map",
+    "main.27bbff19.js.map": "/twitter-redux/static/js/main.27bbff19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9921b8ae.css",
+    "static/js/main.27bbff19.js"
+  ]
+}
