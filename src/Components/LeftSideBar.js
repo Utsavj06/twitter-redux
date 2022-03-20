@@ -35,15 +35,15 @@ const Container = styled.div`
         display:flex;
         align-items:center;
         border-right: 0.5px solid white;
-        height:100vh;
         color:white;
         flex-direction:column;
-        position:fixed;
+        height:43rem;
 `
 
 const MiniContainer = styled.div`
         display:flex;
         flex-direction:column;
+        position:fixed;
 `
 const MyButton = styled.button`
         width:170px;

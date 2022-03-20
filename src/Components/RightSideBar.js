@@ -16,6 +16,6 @@ const Container = styled.div`
         color:white;
         border-left:0.5px solid white;
         position:fixed;
+        height:43rem;
         margin-left:1013px;
-        height:100vh;
 `

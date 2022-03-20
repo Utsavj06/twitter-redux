@@ -13,5 +13,4 @@ export default Main;
 const Container = styled.div`
         width:50%;
         color:white;
-        margin-left:339px;
 `

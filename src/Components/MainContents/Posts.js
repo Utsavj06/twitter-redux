@@ -13,6 +13,10 @@ const Posts = () => {
           return (
           <AllData key={elem.id}> 
              <h3>{elem.data}</h3>
+            <Buttons>  
+             <Button>Like</Button>
+             <Button>Comment</Button>
+            </Buttons> 
           </AllData>
           )
         } )
@@ -28,6 +32,16 @@ const AllData = styled.div`
     margin-top:80px;
     padding-left:45px;
     font-size:30px;
-    height : 80px;
+    height : 120px;
     border-bottom:1px solid white;
+    border-left:1.5px solid white;
+`
+
+const Button = styled.button`
+   width:80px;
+`
+
+const Buttons = styled.div`
+   display:flex;
+   gap:10px;
 `
