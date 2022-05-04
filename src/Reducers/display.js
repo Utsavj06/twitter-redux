@@ -9,11 +9,11 @@ const display = (state = Data , action) => {
              return {
                  ...state,
                  lists : [
-                     ...state.lists,
                      {
                          id : id ,
                          data:Data
-                     }
+                     },
+                     ...state.lists
                  ]
              }
         default : return state;
