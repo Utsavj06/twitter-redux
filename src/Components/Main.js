@@ -11,6 +11,6 @@ const Main = () => {
 export default Main;
 
 const Container = styled.div`
-        width:50%;
+        width:53.3%;
         color:white;
 `
