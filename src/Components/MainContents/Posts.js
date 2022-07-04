@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { useSelector } from 'react-redux'
 import styled from 'styled-components'
 
 const Posts = () => {
 
     const list = useSelector((state)=> state.display.lists)
+    const [likeNo, setLikeNo] = useState(0);
+
+    const handleLike = () => {
+      setLikeNo(likeNo +1)
+    }
 
   return (
     <>
@@ -14,7 +19,7 @@ const Posts = () => {
           <AllData key={elem.id}> 
              <h3>{elem.data}</h3>
             <Buttons>  
-             <Button>Like</Button>
+             <Button onClick={handleLike}>{!likeNo ? '' : likeNo} Like</Button>
              <Button>Comment</Button>
             </Buttons> 
           </AllData>
