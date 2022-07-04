@@ -7,7 +7,6 @@ const display = (state = Data , action) => {
         case "addData" : 
              const {id, Data} = action.payload;
              return {
-                 ...state,
                  lists : [
                      {
                          id : id ,
